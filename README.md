@@ -289,7 +289,8 @@ how to fix it, please visit the webpage mentioned above.
 
 | № | Назва групи (власне формулювання) | Рядки виводу, віднесені до групи | Обґрунтування |
 |---|---|---|---|
-| 1 | Передача даних| > GET / HTTP/1.1 < HTTP/1.1 301 Moved Permanently | Взаємодія клієнта з сервером під час отримання ресурсу|
+| 1 | Передача даних| > GET / HTTP/1.1 
+< HTTP/1.1 301 Moved Permanently | Взаємодія клієнта з сервером під час отримання ресурсу|
 | 2 | Захист з'єднання | schannel: ... SSL/TLS connection SEC_E_CERT_EXPIRED SEC_E_WRONG_PRINCIPAL SEC_E_UNTRUSTED_ROOT | Забезпечує захищенний обмін данними та перевірку сертифікату сервера |
 | 3 | Пошук сервера | Host r-project.org:443 was resolved. Host google.com:443 was resolved. | Перетворює доменне ім’я на IP-адресу сервера, до якого потрібно підключитися. |
 | 4 | Мережеве підключення| Trying 137.208.57.37:443... Established connection to r-project.org | Забезпечує фізичну та мережеву передачу даних між клієнтом і сервером.|
